@@ -50,7 +50,7 @@ npm start
 
 ## Live Demo
 
-The application is deployed and can be accessed at: [https://your-app-url.netlify.app](https://your-app-url.netlify.app)
+The application is deployed and can be accessed at: [https://surajbhatt03.github.io/advanced-react-todo-application/]
 
 ## Screenshots
 
