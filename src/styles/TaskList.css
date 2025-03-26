@@ -1,0 +1,102 @@
+.task-list-container {
+    background-color: white;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-list-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .task-list-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .task-list-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .task-list-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .task-list-control label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4b5563;
+  }
+  
+  .task-list-control select {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    background-color: white;
+    font-size: 0.875rem;
+    width: 100%;
+  }
+  
+  .task-list-control select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+  }
+  
+  .task-list-empty {
+    text-align: center;
+    padding: 2.5rem 0;
+    color: #6b7280;
+  }
+  
+  .task-list-empty-text {
+    font-size: 1.125rem;
+  }
+  
+  .task-list-empty-subtext {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .task-list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .task-list-container {
+      padding: 1.5rem;
+    }
+    
+    .task-list-title {
+      font-size: 1.5rem;
+    }
+    
+    .task-list-controls {
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 1.5rem;
+    }
+    
+    .task-list-control {
+      min-width: 150px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .task-list-header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
