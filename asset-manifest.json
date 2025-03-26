@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/advanced-react-todo-application/static/css/main.e3f6502f.css",
+    "main.js": "/advanced-react-todo-application/static/js/main.72857692.js",
+    "index.html": "/advanced-react-todo-application/index.html",
+    "main.e3f6502f.css.map": "/advanced-react-todo-application/static/css/main.e3f6502f.css.map",
+    "main.72857692.js.map": "/advanced-react-todo-application/static/js/main.72857692.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3f6502f.css",
+    "static/js/main.72857692.js"
+  ]
+}
