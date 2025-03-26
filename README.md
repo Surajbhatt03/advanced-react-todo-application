@@ -24,7 +24,7 @@ A feature-rich Todo application built with React, Redux, and Tailwind CSS that i
 ## Setup Instructions
 
 1. Clone the repository:
-git clone https://github.com/yourusername/react-todo-app.git
+git clone https://github.com/surajbhatt03/advanced-react-todo-application.git
 
 2. Install dependencies:
 npm install
@@ -54,6 +54,6 @@ The application is deployed and can be accessed at: [https://surajbhatt03.github
 
 ## Screenshots
 
-![Login Screen](screenshots/login.png)
-![Task List](screenshots/tasks.png)
-![Mobile View](screenshots/mobile.png)
+![Mobile View](public/image.png)
+![Task List](public/image1.png)
+![LoginScreen](public/image2.png)
